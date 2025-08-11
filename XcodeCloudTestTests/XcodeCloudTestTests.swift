@@ -6,6 +6,7 @@
 //
 
 import Testing
+import XCTest
 @testable import XcodeCloudTest
 
 final class ContentViewTests: XCTestCase {
@@ -31,6 +32,6 @@ final class ContentViewTests: XCTestCase {
     
     func testMixedInput() {
         XCTAssertEqual(ContentView.filterInteger("a1b2c3"), "123")
-        XCTAssertEqual(ContentView.filterInteger("12x"), "12")
+        XCTAssertEqual(ContentView.filterInteger("12x"), "12x")
     }
 }

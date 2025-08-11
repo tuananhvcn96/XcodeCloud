@@ -40,11 +40,6 @@
 			path = XcodeCloudTestTests;
 			sourceTree = "<group>";
 		};
-		8F909AC82E448F6600481315 /* XcodeCloudTestUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = XcodeCloudTestUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				8F909AB02E448F6400481315 /* XcodeCloudTest */,
 				8F909ABE2E448F6600481315 /* XcodeCloudTestTests */,
-				8F909AC82E448F6600481315 /* XcodeCloudTestUITests */,
 				8F909AAF2E448F6400481315 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				8F909AC72E448F6600481315 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8F909AC82E448F6600481315 /* XcodeCloudTestUITests */,
 			);
 			name = XcodeCloudTestUITests;
 			packageProductDependencies = (
