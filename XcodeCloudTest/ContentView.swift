@@ -24,7 +24,7 @@ struct ContentView: View {
             Text("Nhập số nguyên")
                 .font(.title)
             
-            TextField("Chỉ nhập số...", text: $inputText)
+            TextField("Chỉ nhập số ...", text: $inputText)
                 .keyboardType(.numberPad)
                 .onChange(of: inputText) { newValue in
                     let filtered = ContentView.filterInteger(newValue)
