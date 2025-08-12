@@ -21,7 +21,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Nhập số nguyên.    ")
+            Text("Nhập số nguyên.")
                 .font(.title)
             
             TextField("Chỉ nhập số ...", text: $inputText)
